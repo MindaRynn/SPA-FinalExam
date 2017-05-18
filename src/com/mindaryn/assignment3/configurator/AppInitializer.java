@@ -1,4 +1,4 @@
-package com.pakponj.assignment3.configurator;
+package com.mindaryn.assignment3.configurator;
 
 import javax.servlet.Filter;
 import javax.servlet.ServletContext;
@@ -9,7 +9,7 @@ import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.filter.HttpPutFormContentFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.pakponj.assignment3.configurator.AppConfig;
+import com.mindaryn.assignment3.configurator.AppConfig;
 
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
 

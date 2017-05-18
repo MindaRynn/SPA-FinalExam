@@ -1,4 +1,4 @@
-package com.pakponj.assignment3.database;
+package com.mindaryn.assignment3.database;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

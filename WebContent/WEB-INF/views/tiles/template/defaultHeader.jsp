@@ -2,6 +2,6 @@
 	<h1>Software Architecture, Design Patterns in Spring 
 	<br>
 	<br>
-	<small>By Pakpon Jetapai 5710546381</small>
+	<small>By Natcha Pongsupanee 5710546224</small>
 	</h1>
 </div>

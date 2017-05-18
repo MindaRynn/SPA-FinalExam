@@ -1,4 +1,4 @@
-package com.pakponj.assignment3.database;
+package com.mindaryn.assignment3.database;
 
 public class Student {
 	private String name;

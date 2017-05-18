@@ -1,4 +1,4 @@
-package com.pakponj.assignment3.configurator;
+package com.mindaryn.assignment3.configurator;
 
 import java.util.Properties;
 
@@ -16,11 +16,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
-import com.pakponj.assignment3.database.StudentJDBCTemplate;
+import com.mindaryn.assignment3.database.StudentJDBCTemplate;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.pakponj.assignment3")
+@ComponentScan(basePackages = "com.mindaryn.assignment3")
 public class AppConfig extends WebMvcConfigurerAdapter{
 	
 	// Apache tiles configuration
