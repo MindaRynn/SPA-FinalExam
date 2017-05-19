@@ -3,15 +3,15 @@
     <a href="${pageContext.request.contextPath}/" class="btn btn-default">Home</a>
   </div>
   <div class="btn-group" role="group">
-    <a href="${pageContext.request.contextPath}/addNewStudent" class="btn btn-default">
+    <a href="${pageContext.request.contextPath}/addNewPattern" class="btn btn-default">
     	<span class="glyphicon glyphicon-plus"></span>
-    	Student
+    	Pattern
     </a>
   </div>
   <div class="btn-group" role="group">
-    <a href="${pageContext.request.contextPath}/viewStudents" class="btn btn-default">
+    <a href="${pageContext.request.contextPath}/viewPatterns" class="btn btn-default">
 		<span class="glyphicon glyphicon-list-alt"></span>
-		Students
+		Patterns
 	</a>
   </div>
 </div>

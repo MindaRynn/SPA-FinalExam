@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
-import com.mindaryn.assignment3.database.StudentJDBCTemplate;
+import com.mindaryn.assignment3.database.PatternJDBCTemplate;
 
 @Configuration
 @EnableWebMvc
@@ -50,7 +50,7 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/assignment3?useUnicode=yes&characterEncoding=UTF-8");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/final?useUnicode=yes&characterEncoding=UTF-8");
 		dataSource.setUsername("root");
 		dataSource.setPassword("");
 		
@@ -58,9 +58,9 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 	}
 	
 	@Bean
-	public StudentJDBCTemplate getStudentJDBCTemplate() {
-		StudentJDBCTemplate studentJDBCTemplate = new StudentJDBCTemplate();
-		studentJDBCTemplate.setDataSource(getDataSource());
-		return studentJDBCTemplate;
+	public PatternJDBCTemplate getPatternJDBCTemplate() {
+		PatternJDBCTemplate patternJDBCTemplate = new PatternJDBCTemplate();
+		patternJDBCTemplate.setDataSource(getDataSource());
+		return patternJDBCTemplate;
 	}
 }

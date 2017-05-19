@@ -19,22 +19,23 @@
 		<put-attribute name="body" value="/WEB-INF/views/pages/index.jsp"></put-attribute>
 	</definition>
 	
-	<!-- Add New Student Page -->
-	<definition name="addNewStudent" extends="base-definition">
-		<put-attribute name="title" value="Add new student page"></put-attribute>
-		<put-attribute name="body" value="/WEB-INF/views/pages/addNewStudent.jsp"></put-attribute>
+
+	<!-- Add New Pattern Page -->
+	<definition name="addNewPattern" extends="base-definition">
+		<put-attribute name="title" value="Add new pattern page"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/pages/addNewPattern.jsp"></put-attribute>
 	</definition>
 	
-	<!-- View Students Page -->
-	<definition name="viewStudents" extends="base-definition">
-		<put-attribute name="title" value="View Students Page"></put-attribute>
-		<put-attribute name="body" value="/WEB-INF/views/pages/viewStudents.jsp"></put-attribute>
+	<!-- View Patterns Page -->
+	<definition name="viewPatterns" extends="base-definition">
+		<put-attribute name="title" value="View Patterns Page"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/pages/viewPatterns.jsp"></put-attribute>
 	</definition>
 	
-	<!-- Edit Student Page -->
-	<definition name="editStudent" extends="base-definition">
-		<put-attribute name="title" value="Edit Student Page"></put-attribute>
-		<put-attribute name="body" value="/WEB-INF/views/pages/editStudent.jsp"></put-attribute>
+	<!-- Edit Pattern Page -->
+	<definition name="editPattern" extends="base-definition">
+		<put-attribute name="title" value="Edit Pattern Page"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/pages/editPattern.jsp"></put-attribute>
 	</definition>
 	
 	
